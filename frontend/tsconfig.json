@@ -16,23 +16,12 @@
     "allowJs": true,
     "checkJs": true,
     "isolatedModules": true,
-    "sourceMap": true,
     "paths": {
-      "$lib/*": [
-        "src/lib/*"
-      ],
-      "$lib/components/*": [
-        "src/lib/components/*"
-      ],
-      "$lib/components/ui/*": [
-        "src/lib/components/ui/*"
-      ],
-      "$lib/utils/*": [
-        "src/lib/utils/*"
-      ],
-      "$lib/hooks/*": [
-        "src/lib/hooks/*"
-      ]
+      "$lib/*": ["src/lib/*"],
+      "$lib/components/*": ["src/lib/components/*"],
+      "$lib/components/ui/*": ["src/lib/components/ui/*"],
+      "$lib/utils/*": ["src/lib/utils/*"],
+      "$lib/hooks/*": ["src/lib/hooks/*"]
     }
   },
   "include": [
@@ -40,8 +29,7 @@
     "src/**/*.ts",
     "src/**/*.js",
     "src/**/*.svelte",
-    "wailsjs/**/*.d.ts",
-    "wailsjs/**/*.js"
+    "wailsjs/**/*.d.ts"
   ],
   "references": [
     {
