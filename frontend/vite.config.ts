@@ -10,4 +10,8 @@ export default defineConfig({
       $lib: resolve("./src/lib"),
     },
   },
+  css: {
+    // Map compiled CSS back to source files in the dev server's devtools.
+    devSourcemap: true,
+  },
 });
