@@ -3,7 +3,7 @@
   import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "$lib/components/ui/card";
   import { Input } from "$lib/components/ui/input";
   import { Label } from "$lib/components/ui/label";
-  import { HandleIn1Out1 } from "../wailsjs/go/main/App.js";
+  import { HandleIn1Out1 } from "../wailsjs/go/main/App";
 
   let in1 = $state("");
   let out1 = $state("");
