@@ -36,6 +36,7 @@ build/
 .tailwindcss-cache
 components.json.bak
 vite.config.ts.timestamp-*
+frontend/wailsjs/
 
 # Logs and temp files
 npm-debug.log*

@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"strings"
 )
 
 // App struct
@@ -18,4 +19,9 @@ func NewApp() *App {
 // so we can call the runtime methods
 func (a *App) startup(ctx context.Context) {
 	a.ctx = ctx
+}
+
+// HandleIn1Out1 accepts a string input, converts it to uppercase, and returns it.
+func (a *App) HandleIn1Out1(input string) string {
+	return strings.ToUpper(input)
 }
