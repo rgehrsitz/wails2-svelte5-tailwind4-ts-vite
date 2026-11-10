@@ -6,7 +6,7 @@ A modern, production-ready template for building beautiful desktop applications 
 
 This template combines the latest versions of powerful technologies:
 
-- **[Wails v2.10.1](https://wails.io/)**: Build desktop applications using Go and web technologies
+- **[Wails v2.17.1](https://wails.io/)**: Build desktop applications using Go and web technologies
 - **[Svelte v5.28.2](https://svelte.dev/)**: Cybernetically enhanced web apps with revolutionary reactivity
 - **[Tailwind CSS v4.1.4](https://tailwindcss.com/)**: Utility-first CSS framework with new CSS-first configuration
 - **[shadcn-svelte v1.0.6](https://shadcn-svelte.com/)**: Beautifully designed components built with Radix UI and Tailwind CSS
@@ -41,7 +41,7 @@ All shadcn-svelte components are pre-installed and ready to use:
 
 ### Prerequisites
 
-- [Go](https://golang.org/doc/install) (version 1.23 or later)
+- [Go](https://golang.org/doc/install) (version 1.26 or later)
 - [Node.js](https://nodejs.org/) (version 16 or later)
 - [Wails CLI](https://wails.io/docs/gettingstarted/installation)
 
